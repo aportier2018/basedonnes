@@ -1,0 +1,92 @@
+@import url(reset.css);
+
+body {
+  width : auto;
+  height: 400px;
+  font-family: "monospace"  sans-serif;
+  font-size: 14px;
+  margin:auto;
+  background-color: #387FD0;
+  border-radius: 5px;
+}
+
+header{
+/*  width:600px;*/
+  height:200px;
+  background-image: url('https://img2.lght.pics/PqCh.jpg');
+  margin-bottom: 10px;;
+  border-radius: 5px;
+  box-shadow:2px, 2px;
+}
+
+header h1 {
+text-align: center;
+padding-top: 40px;
+
+}
+
+.contenu{
+    width:500px;
+    margin:auto;
+}
+.contenu h1{
+  text-align: center;
+
+}
+
+label{
+  display:inline-block;
+  width: 150px;
+  height:22px;
+  margin-left: 20px;
+  margin-right: :10px;
+  vertical-align: middle;
+}
+
+input{
+  width: 200px;
+  height:22px;
+}
+
+label,input {
+  margin-top: 5px;
+}
+
+input#titre{
+  display: inline-block;
+  width: 20px;
+  vertical-align: middle;
+  margin-left: 40px;
+}
+
+input#souvenir{
+  width:0;
+  height:5px;
+}
+
+input.envoyer{
+  margin-left:180px;
+  width:100px;
+}
+
+span{
+  display:inline-block;
+  vertical-align: bottom;
+  color:red;
+  font-size:20px;
+  margin-left: 4px;
+}
+span#etoile{
+  margin-left: 35px
+}
+
+/*mise en page retour formulaire*/
+.retour{
+  margin-left:200px;
+  width:500px;
+}
+
+.reponse{
+  margin-left : 20px;
+  margin-top: 5px;
+}
